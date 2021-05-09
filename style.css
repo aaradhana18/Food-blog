@@ -1,0 +1,93 @@
+/* start navbar area */
+.navbar{
+    background-color: white;
+    box-shadow: 0px 5px 10px rgb(243, 241, 241);
+}
+.navbar-nav{
+    margin-left: auto;
+}
+.navbar .navbar-brand{
+    padding-left: 130px;
+}
+.navbar .navbar-nav .last-nav{
+    padding-right: 130px;
+}
+.nav-item{
+    padding: 0 20px 0 20px;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+}
+.navbar .navbar-nav .nav-link:hover{
+    color: black;
+}
+.navbar-brand{
+    font-family: 'Dancing Script', cursive;
+    font-size: 30px;
+}
+/* end navbar area */
+
+/* start banner area */
+.home-text{
+    margin-top: 95px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    margin-left: 20px;
+    background: url(./images/bg1.jpg);
+    background-size: cover;
+    padding: 252px;
+    text-align: center;
+}
+.button{
+    background-color: transparent;
+    color: #ebf6f7;
+    border-color: #ebf6f7;
+    border-radius: 0px;
+}
+.button:hover{
+    background-color: #ebf6f7;
+    color: black;
+    border-color: black;
+}
+.title-text{
+    color: white;
+    font-family: 'Cinzel', serif;
+    font-weight: 400;
+    font-size: 50px;
+    padding-bottom: 10px;
+}
+.sub-title{
+    color: #ebf6f7;
+    padding-bottom: 10px;
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 5px;
+}
+/* end banner area */
+
+/* gallery area starts */
+.button-group{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.butn{
+    border: none;
+    background-color: transparent;
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px/130px;
+}
+.butn:hover{
+    filter: brightness(1.1) drop-shadow(1px 8px 30px #b1afaf);
+}
+.gall-title{
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    padding-top: 50px;
+}
+.gallery{
+    padding: 0 200px 0 200px;
+}
+.img:hover{
+    filter: brightness(1.1) drop-shadow(1px 8px 30px #b1afaf);
+}
+/* gallery area ends */
